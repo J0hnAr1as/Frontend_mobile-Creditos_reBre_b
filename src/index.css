@@ -1,0 +1,24 @@
+/* RESET */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #071B34;
+  color: #F1F5F9;
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+/* Quitar fondo blanco de Vite */
+:root {
+  background-color: #071B34;
+}
+
+#root {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
