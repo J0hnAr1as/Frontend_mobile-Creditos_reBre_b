@@ -10,7 +10,7 @@ function Login() {
 
   const handleLogin = async () => {
     try {
-      const res = await api.post("/api/auth/login-cobrador", {
+      const res = await api.post("/auth/login-cobrador", {
         email,
         password
       })
